@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "created_with": "board-minutes-tracker 0.1.0",
+  "last_updated": "2026-10-15",
+  "org": {
+    "name": "Lantern Hill Learning Collective (synthetic)",
+    "slug": "lantern-hill"
+  },
+  "body": "Board of Directors",
+  "members": [
+    "Ana Ruiz",
+    "Ben Okoro",
+    "Chloe Varga",
+    "Dev Patel"
+  ],
+  "progress": {},
+  "actions": [
+    {
+      "id": "A-001",
+      "text": "Send the audit RFP",
+      "owner": "Ana Ruiz",
+      "due": "2026-11-15",
+      "meeting": "2026-10-14",
+      "status": "open",
+      "closed_on": null,
+      "notes": []
+    },
+    {
+      "id": "A-002",
+      "text": "Circulate the Q4 forecast",
+      "owner": "Dev Patel",
+      "due": "2026-11-18",
+      "meeting": "2026-10-14",
+      "status": "open",
+      "closed_on": null,
+      "notes": []
+    },
+    {
+      "id": "A-003",
+      "text": "Update the volunteer handbook",
+      "owner": "Chloe Varga",
+      "due": "2026-12-15",
+      "meeting": "2026-10-14",
+      "status": "open",
+      "closed_on": null,
+      "notes": []
+    }
+  ],
+  "change_log": []
+}

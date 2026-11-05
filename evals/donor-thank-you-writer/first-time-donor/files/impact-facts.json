@@ -1,0 +1,8 @@
+{
+  "_about": "Synthetic impact facts. The ONLY impact claims letters may use.",
+  "facts": [
+    {"id": "I-01", "text": "This year our tutors met with 312 students after school.", "source": "Program records, 2026 (synthetic)"},
+    {"id": "I-02", "text": "Our summer reading camp gave 120 children six weeks of daily reading time.", "source": "Camp roster summary, 2026 (synthetic)"},
+    {"id": "I-03", "text": "Volunteers gave 4,800 hours of tutoring this year.", "source": "Volunteer log, 2026 (synthetic)"}
+  ]
+}

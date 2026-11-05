@@ -1,0 +1,26 @@
+{
+  "_about": "One grant record. Every value comes from the funder's own page (source_url) as of checked_on. validate.py marks it verified only when the source fields are complete.",
+  "id": "G-01",
+  "funder": "",
+  "program": "",
+  "type": "federal | state | local | foundation | corporate",
+  "source_url": "",
+  "checked_on": "YYYY-MM-DD",
+  "status": "open | rolling | closed | unknown",
+  "deadline": "YYYY-MM-DD or null",
+  "deadline_source": "where on the page the deadline is stated",
+  "award_range": {"min": null, "max": null},
+  "eligibility_criteria": [
+    {
+      "text": "the funder's requirement, paraphrased closely",
+      "kind": "hard | preference",
+      "source_quote_location": "section or heading on the page",
+      "check": {"field": "tax_status", "op": "in", "value": ["501(c)(3)"]}
+    }
+  ],
+  "geography": "",
+  "issue_areas": [],
+  "requires": {"sam_uei": false, "audit": false, "match_funds": false, "prior_relationship": false},
+  "notes": "",
+  "verified": false
+}

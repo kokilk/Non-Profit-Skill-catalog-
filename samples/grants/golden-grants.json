@@ -1,0 +1,614 @@
+{
+  "_about": "Synthetic golden set: 12 invented funders and programs. Never checked against any real funder page.",
+  "grants": [
+    {
+      "id": "G-01",
+      "funder": "Federal Literacy Office (synthetic)",
+      "program": "Community Literacy Grants",
+      "type": "federal",
+      "source_url": "https://federal-literacy-office.example.org/grants/community-literacy-grants",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2027-02-15",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 50000,
+        "max": 150000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        },
+        {
+          "text": "Applicant must be a nonprofit organization",
+          "kind": "hard",
+          "source_quote_location": "Eligible applicants",
+          "check": {
+            "field": "applicant_type",
+            "op": "in",
+            "value": [
+              "nonprofit"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "literacy",
+        "education"
+      ],
+      "requires": {
+        "sam_uei": true,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-02",
+      "funder": "Buckeye Reading Trust (synthetic)",
+      "program": "Ohio Youth Reading Fund",
+      "type": "foundation",
+      "source_url": "https://buckeye-reading-trust.example.org/grants/ohio-youth-reading-fund",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2026-12-01",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 10000,
+        "max": 40000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must serve OH",
+          "kind": "hard",
+          "source_quote_location": "Who can apply",
+          "check": {
+            "field": "geography",
+            "op": "overlaps",
+            "value": [
+              "OH"
+            ]
+          }
+        },
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        },
+        {
+          "text": "Annual budget of $1,000,000 or less",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "annual_budget",
+            "op": "lte",
+            "value": 1000000
+          }
+        },
+        {
+          "text": "Preference for organizations with audited financials",
+          "kind": "preference",
+          "source_quote_location": "Priorities",
+          "check": {
+            "field": "audited_financials",
+            "op": "is_true",
+            "value": null
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "literacy",
+        "youth"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-03",
+      "funder": "Great Lakes Neighbors Fund (synthetic)",
+      "program": "Housing Justice Grants",
+      "type": "foundation",
+      "source_url": "https://great-lakes-neighbors-fund.example.org/grants/housing-justice-grants",
+      "checked_on": "2026-11-01",
+      "status": "rolling",
+      "deadline": null,
+      "deadline_source": "",
+      "award_range": {
+        "min": 5000,
+        "max": 25000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must serve MI, OH, WI",
+          "kind": "hard",
+          "source_quote_location": "Who can apply",
+          "check": {
+            "field": "geography",
+            "op": "overlaps",
+            "value": [
+              "MI",
+              "OH",
+              "WI"
+            ]
+          }
+        },
+        {
+          "text": "Applicant must be 501(c)(3) or fiscally sponsored",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)",
+              "fiscally sponsored"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "housing",
+        "community organizing"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-04",
+      "funder": "Hometown Grocers (synthetic)",
+      "program": "Hometown Grocers Giving",
+      "type": "corporate",
+      "source_url": "https://hometown-grocers.example.org/grants/hometown-grocers-giving",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2026-11-20",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 50000,
+        "max": 300000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must serve OR, WA",
+          "kind": "hard",
+          "source_quote_location": "Who can apply",
+          "check": {
+            "field": "geography",
+            "op": "overlaps",
+            "value": [
+              "OR",
+              "WA"
+            ]
+          }
+        },
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "food security"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": true,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-05",
+      "funder": "State Food Access Office (synthetic)",
+      "program": "Food Access Grants",
+      "type": "state",
+      "source_url": "https://state-food-access-office.example.org/grants/food-access-grants",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2027-01-10",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 100000,
+        "max": 500000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must serve OR",
+          "kind": "hard",
+          "source_quote_location": "Who can apply",
+          "check": {
+            "field": "geography",
+            "op": "overlaps",
+            "value": [
+              "OR"
+            ]
+          }
+        },
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "food security",
+        "health"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": true,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-06",
+      "funder": "Maple Fund (synthetic)",
+      "program": "Maple Fund Invitational",
+      "type": "foundation",
+      "source_url": "https://maple-fund.example.org/grants/maple-fund-invitational",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2027-03-01",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 20000,
+        "max": 60000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "education",
+        "youth"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": true
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-07",
+      "funder": "Civic Arts Council (synthetic)",
+      "program": "City Arts Microgrants",
+      "type": "local",
+      "source_url": "https://civic-arts-council.example.org/grants/city-arts-microgrants",
+      "checked_on": "2026-11-01",
+      "status": "closed",
+      "deadline": "2026-09-30",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 500,
+        "max": 5000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "arts"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-08",
+      "funder": "Northern Rivers Fund (synthetic)",
+      "program": "River Communities Grants",
+      "type": "foundation",
+      "source_url": "https://northern-rivers-fund.example.org/grants/river-communities-grants",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2026-10-15",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 10000,
+        "max": 50000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "environment"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-09",
+      "funder": "Lakeshore Literacy Circle (synthetic)",
+      "program": "Lakeshore Literacy Prize",
+      "type": "foundation",
+      "source_url": "",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2027-01-31",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 5000,
+        "max": 10000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "literacy"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-10",
+      "funder": "Community Health Partners (synthetic)",
+      "program": "Community Health Pilot",
+      "type": "foundation",
+      "source_url": "https://community-health-partners.example.org/grants/community-health-pilot",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": null,
+      "deadline_source": "",
+      "award_range": {
+        "min": 25000,
+        "max": 75000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "health"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-11",
+      "funder": "Small Orgs Capacity Fund (synthetic)",
+      "program": "Capacity Grants",
+      "type": "foundation",
+      "source_url": "https://small-orgs-capacity-fund.example.org/grants/capacity-grants",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2027-04-01",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 5000,
+        "max": 15000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Annual budget of $250,000 or less",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "annual_budget",
+            "op": "lte",
+            "value": 250000
+          }
+        },
+        {
+          "text": "Applicant must be 501(c)(3) or fiscally sponsored",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)",
+              "fiscally sponsored"
+            ]
+          }
+        },
+        {
+          "text": "Organization must have at least one paid staff member",
+          "kind": "hard",
+          "source_quote_location": "Eligibility"
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "capacity building"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-12",
+      "funder": "Federal Rural Programs (synthetic)",
+      "program": "Rural Food Systems",
+      "type": "federal",
+      "source_url": "https://federal-rural-programs.example.org/grants/rural-food-systems",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2027-03-15",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 100000,
+        "max": 200000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        },
+        {
+          "text": "Projects must serve a rural area",
+          "kind": "hard",
+          "source_quote_location": "Eligible areas",
+          "check": {
+            "field": "service_area_type",
+            "op": "in",
+            "value": [
+              "rural"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "food security"
+      ],
+      "requires": {
+        "sam_uei": true,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    }
+  ]
+}

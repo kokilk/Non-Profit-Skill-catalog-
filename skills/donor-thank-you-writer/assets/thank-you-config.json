@@ -1,0 +1,16 @@
+{
+  "_about": "Org settings for letters.py. Fill in with the org. Thresholds are the org's choice; the acknowledgment values are US reference points to verify with the org's accountant.",
+  "org_legal_name": "",
+  "include_ein": false,
+  "ein": "",
+  "segments": {
+    "major_gift_min": null,
+    "lapsed_after_months": null
+  },
+  "acknowledgment": {
+    "written_ack_min": 250,
+    "quid_pro_quo_disclosure_over": 75,
+    "source": "[VERIFY: current IRS guidance on charitable contribution acknowledgments and quid pro quo disclosures (e.g. IRS Publication 1771); checked on: not yet]",
+    "note": "US only. Other countries differ. Not tax advice: confirm with the org's accountant."
+  }
+}

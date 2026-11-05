@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "created_with": "impact-report-builder 0.1.0",
+  "last_updated": "",
+  "org": {"name": "", "slug": ""},
+  "progress": {"scope": "not_started", "privacy_gate": "not_started", "profile": "not_started", "clean": "not_started",
+               "define_metrics": "not_started", "compute": "not_started", "draft": "not_started", "verify": "not_started",
+               "deliver": "not_started"},
+  "scope": {"funder": "", "period": "", "required_metrics": [], "format": "", "deadline": ""},
+  "data": {"file": "", "description": "", "tier": "", "person_level": null, "pii_guard_run": false},
+  "profile_findings": [],
+  "cleaning_rules": [],
+  "metrics_config": {"min_cell": 5, "min_cell_chosen_by": "", "drop_exact_duplicates": false, "metrics": []},
+  "reports": [],
+  "change_log": []
+}

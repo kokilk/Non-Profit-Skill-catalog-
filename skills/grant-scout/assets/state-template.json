@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "created_with": "grant-scout 0.1.0",
+  "last_updated": "",
+  "org": {"name": "", "slug": ""},
+  "progress": {
+    "org_profile": "not_started",
+    "search_plan": "not_started",
+    "search": "not_started",
+    "verify_and_record": "not_started",
+    "rank": "not_started",
+    "shortlist": "not_started",
+    "loi_draft": "not_started",
+    "review": "not_started",
+    "track": "not_started"
+  },
+  "profile": {"facts": []},
+  "search_plan": {
+    "focus": [],
+    "geography": "",
+    "issue_areas": [],
+    "ask_range": "",
+    "deadline_window": "",
+    "sources_searched": [],
+    "sources_not_searched": []
+  },
+  "grants": [],
+  "pipeline": {
+    "settings": {"buffer_days": 2, "review_days": 5, "drafting_days": 10, "soon_days": 14},
+    "entries": []
+  },
+  "lois": [],
+  "change_log": []
+}

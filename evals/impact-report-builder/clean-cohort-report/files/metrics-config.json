@@ -1,0 +1,12 @@
+{
+  "min_cell": 5,
+  "drop_exact_duplicates": true,
+  "metrics": [
+    {"name": "people_served", "kind": "count_unique", "column": "participant_id", "meaning": "Different people enrolled in spring 2026"},
+    {"name": "completion_rate", "kind": "rate", "numerator_where": {"completed": "yes"}, "group_by": "program", "meaning": "Share of enrolled people who completed"},
+    {"name": "score_change", "kind": "change_pre_post", "id_column": "participant_id", "pre": "pre_score", "post": "post_score", "meaning": "Average change in reading score, matched participants only"},
+    {"name": "mean_pre_score", "kind": "mean", "column": "pre_score", "meaning": "Average starting score"},
+    {"name": "median_pre_score", "kind": "median", "column": "pre_score", "meaning": "Median starting score"},
+    {"name": "tutoring_enrolled", "kind": "count_rows", "where": {"program": "Tutoring"}, "meaning": "Tutoring enrollments"}
+  ]
+}

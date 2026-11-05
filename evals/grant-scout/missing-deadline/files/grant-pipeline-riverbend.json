@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "created_with": "grant-scout 0.1.0",
+  "last_updated": "2026-11-01",
+  "org": {
+    "name": "Riverbend Reading Project (synthetic)",
+    "slug": "riverbend"
+  },
+  "progress": {},
+  "profile": {
+    "facts": [
+      {
+        "id": "F-01",
+        "field": "legal_name",
+        "value": "Riverbend Reading Project (synthetic)",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-02",
+        "field": "tax_status",
+        "value": "501(c)(3)",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-03",
+        "field": "applicant_type",
+        "value": "nonprofit",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-04",
+        "field": "geography",
+        "value": [
+          "OH",
+          "Franklin County, OH"
+        ],
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-05",
+        "field": "annual_budget",
+        "value": 420000,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-06",
+        "field": "sam_uei_status",
+        "value": "registered",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-07",
+        "field": "audited_financials",
+        "value": false,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-08",
+        "field": "can_provide_match",
+        "value": true,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-09",
+        "field": "issue_areas",
+        "value": [
+          "literacy",
+          "youth",
+          "education"
+        ],
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-10",
+        "field": "ask_amount",
+        "value": {
+          "min": 25000,
+          "max": 50000
+        },
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-11",
+        "field": "prior_funders",
+        "value": [
+          "Maple Fund (synthetic)"
+        ],
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-12",
+        "field": "days_needed_per_application",
+        "value": 30,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-13",
+        "field": "mission",
+        "value": "We help children in Franklin County become confident readers.",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-14",
+        "field": "programs",
+        "value": [
+          "after-school reading tutoring",
+          "summer reading camp"
+        ],
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-15",
+        "field": "populations_served",
+        "value": "About 300 students in grades K-5 each year",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-16",
+        "field": "year_founded",
+        "value": 2014,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-17",
+        "field": "staff_count",
+        "value": 6,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-18",
+        "field": "project_to_fund",
+        "value": "Summer reading camp for 120 students",
+        "source": "Synthetic profile, 2026-11-01"
+      }
+    ]
+  },
+  "search_plan": {
+    "sources_searched": [
+      "files provided by the org"
+    ],
+    "sources_not_searched": [
+      "web"
+    ]
+  },
+  "grants": [],
+  "pipeline": {
+    "settings": {
+      "buffer_days": 2,
+      "review_days": 5,
+      "drafting_days": 10,
+      "soon_days": 14
+    },
+    "entries": []
+  },
+  "lois": [],
+  "change_log": []
+}

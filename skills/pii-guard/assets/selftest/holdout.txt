@@ -1,0 +1,42 @@
+# pii-guard holdout set: hand-written, synthetic, formats the sample generator does NOT produce.
+# One record per line. Labeled values are written {{TYPE|value}}. Sensitive context goes at the
+# end of the line as " ## context=family1,family2". Lines starting with # are ignored.
+# Names with no cue and not in the names list are labeled NAME_CUE (the only detector that could
+# catch them), so they count as misses.
+# Used by `scan.py selftest` to show how the detectors do on less tidy text. Misses here are expected
+# and are reported, not hidden.
+Write to {{EMAIL|Pat.Rivera+volunteer@mail.example.org}} with the schedule.
+Her email is {{EMAIL|j_o'neil@example.org}} if you need it.
+Phone: {{PHONE|212 555 0172}} (cell)
+Call {{PHONE|1-303-555-0119}} before noon.
+Mobile {{PHONE|+44 7700 900123}}, UK number.
+Text me at {{PHONE|(720)555-0133}}.
+Amex on file: {{CARD|3782 822463 10005}}.
+Card {{CARD|4012-8888-8888-1881}} expired last month.
+Paid with {{CARD|5105 1051 0510 5100}} at the gala.
+D.O.B. {{DOB|7 March 1991}} per the intake sheet.
+Birthdate: {{DOB|Sept. 3, 1979}}.
+She was born on {{DOB|04/22/2001}} in another state.
+Drop the box at {{ADDRESS|17 N Willow Street}} by Friday.
+Moved to {{ADDRESS|4410 Old Mill Rd., Fairview, OR 97024}} in June.
+Server logged {{IP|198.51.100.77}}.
+Rejected request from {{IP|2001:db8::42}}.
+Open {{URL_ID|http://intake.example.net/forms/r/7f3a9c2e81b44d10}} to see the form.
+Ticket {{ID_NUMBER|CASE-2025-000981}} reopened.
+Ms {{NAME_CUE|Haverford}} came by the office.
+Dr. {{NAME_CUE|Linnea Westcott}} signed the referral.
+Our tenant {{NAME_CUE|Rowan}} asked about the deposit.
+{{NAME_LISTED|amara brindle}} RSVP'd for the dinner.
+Spoke with {{NAME_CUE|Abernathy}} about the volunteer shift.
+Grandma {{NAME_CUE|Ruth}} sent cookies for the volunteers.
+Client was diagnosed with diabetes last spring. ## context=health
+She says her therapist recommended the group. ## context=mental_health
+He is undocumented and afraid to sign the form. ## context=immigration
+They are staying at a safe house until court. ## context=domestic_violence_shelter
+Her son is a juvenile and in foster care. ## context=minors
+He was released on parole in May. ## context=criminal_justice
+Attends NA meetings and has been sober since March. ## context=substance_use
+Our food bank serves 412 households each month.
+The 2026 budget was approved at the March 3, 2026 meeting.
+Reference number 1234567812345678 is an internal batch ID.
+Doors open at 6:30 in Room 12.

@@ -1,0 +1,14 @@
+{
+  "_about": "Hand-computed from cohort.csv (synthetic) BEFORE running impact.py. Rounding: half up. 21 rows; P-05 appears twice (exact duplicate), so 20 rows are used.",
+  "rows_used": 20,
+  "people_served": 20,
+  "completion_rate": {"overall": {"numerator": 16, "denominator": 20, "value": 80.0},
+                      "Tutoring": {"numerator": 10, "denominator": 12, "value": 83.3},
+                      "Job Readiness": "suppressed: complementary (only one other group is under 5)",
+                      "Family Literacy": "suppressed: 3 people, fewer than 5"},
+  "score_change": {"matched": 16, "dropped": 4, "pre_mean": 44.69, "post_mean": 55.31, "value": 10.63,
+                   "working": "pre sum 715 / 16 = 44.6875; post sum 885 / 16 = 55.3125; change 170 / 16 = 10.625"},
+  "mean_pre_score": 44.0,
+  "median_pre_score": 45.0,
+  "tutoring_enrolled": 12
+}

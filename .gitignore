@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Packaged skills (built in Stage 6, not committed)
+dist/
+*.skill
+
+# Never commit pii-guard mapping files or user state files
+*mapping*.json
+*-private-*.json
+
+# OS
+.DS_Store

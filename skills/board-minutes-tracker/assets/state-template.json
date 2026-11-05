@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "created_with": "board-minutes-tracker 0.1.0",
+  "last_updated": "",
+  "org": {"name": "", "slug": ""},
+  "body": "",
+  "members": [],
+  "progress": {"setup": "not_started", "privacy_gate": "not_started", "structure": "not_started", "extract": "not_started",
+               "resolve": "not_started", "draft_minutes": "not_started", "lint": "not_started",
+               "action_tracker": "not_started", "follow_up": "not_started"},
+  "meetings": [],
+  "actions": [],
+  "change_log": []
+}

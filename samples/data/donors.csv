@@ -1,0 +1,61 @@
+gift_id,donor_id,first_name,last_name,email,phone,street,city,state,zip,gift_date,amount,gift_type,campaign,tribute,anonymous,synthetic
+G-0001,D-038,Noel,Stillwater,nstillwater@example.org,(608) 555-0187,5945 Kingfisher Dr,Salem,MA,10982,2026-06-11,250.00,one-time,Online,,no,yes
+G-0002,D-028,Morgan,Glenhaven,mglenhaven@example.com,404-555-0103,2249 Juniper Ridge Avenue,Springfield,IL,31914,2026-12-17,2500.00,one-time,Year-End Appeal,,no,yes
+G-0003,D-036,Parker,Fairbank,parker.fairbank@example.com,+1 720 555 0181,4473 Linden Ave,Madison,WI,97383,2026-09-10,50.00,one-time,Gala 2026,,no,yes
+G-0004,D-001,Indigo,Eastwick,ieastwick@example.net,312.555.0154,2800 Orchard Drive,Riverton,WY,50961,2026-12-15,100.00,one-time,Year-End Appeal,,no,yes
+G-0005,D-001,Indigo,Eastwick,ieastwick@example.net,312.555.0154,2800 Orchard Drive,Riverton,WY,50961,2026-09-03,25.00,one-time,Year-End Appeal,,yes,yes
+G-0006,D-036,Parker,Fairbank,parker.fairbank@example.com,+1 720 555 0181,4473 Linden Ave,Madison,WI,97383,2026-08-13,25.00,one-time,Online,,no,yes
+G-0007,D-017,Sawyer,Glenhaven,sawyer.glenhaven@example.net,404-555-0128,2426 Hawthorn Way,Franklin,TN,77470,2026-06-14,75.00,recurring,Online,,no,yes
+G-0008,D-014,Reese,Kestrel,rkestrel@example.com,720.555.0111,2208 Juniper Ridge Drive,Clinton,IA,91249,2026-02-04,50.00,one-time,Spring Appeal,,no,yes
+G-0009,D-043,Elliot,Stillwater,estillwater@example.com,802-555-0168,6930 Garnet Rd,Salem,MA,74898,2026-03-06,1000.00,one-time,Spring Appeal,,no,yes
+G-0010,D-025,Casey,Kestrel,ckestrel@example.com,(212) 555-0185,3164 Meadowlark Avenue,Springfield,IL,62193,2026-03-17,1000.00,one-time,Online,in memory of Wren Glenhaven,no,yes
+G-0011,D-032,Emeka,Brindle,emeka72@example.org,(919) 555-0185,5868 Orchard Lane,Georgetown,TX,11134,2026-09-04,500.00,recurring,Gala 2026,,no,yes
+G-0012,D-026,Gideon,Ivesdale,gideon85@example.org,615-555-0158,8261 Cedar Hollow Dr,Clinton,IA,29972,2026-02-10,50.00,one-time,Gala 2026,,no,yes
+G-0013,D-004,Priya,Larkspur,priya.larkspur@example.org,(212) 555-0190,3323 Cedar Hollow Way,Fairview,OR,62588,2026-08-28,100.00,one-time,Gala 2026,,no,yes
+G-0014,D-008,Hollis,Northcote,hollis.northcote@example.org,(720) 555-0151,198 Elmwood Drive,Salem,MA,88652,2026-04-16,500.00,one-time,Gala 2026,,no,yes
+G-0015,D-001,Indigo,Eastwick,ieastwick@example.net,312.555.0154,2800 Orchard Drive,Riverton,WY,50961,2026-10-03,500.00,one-time,Gala 2026,in honor of Yael Juniper,no,yes
+G-0016,D-016,Priya,Ivesdale,pivesdale@example.com,+1 503 555 0154,2071 Juniper Ridge Drive,Clinton,IA,44589,2026-09-04,500.00,one-time,Year-End Appeal,,no,yes
+G-0017,D-024,Parker,Oakhurst,parker38@example.net,615.555.0193,3266 Garnet Lane,Springfield,IL,39455,2026-05-18,250.00,one-time,Year-End Appeal,,no,yes
+G-0018,D-021,Wren,Northcote,wren66@example.com,404.555.0105,2537 Dogwood Blvd,Georgetown,TX,60181,2026-01-09,100.00,one-time,Spring Appeal,,no,yes
+G-0019,D-029,Casey,Mossley,casey.mossley@example.com,+1 312 555 0182,2069 Elmwood Street,Madison,WI,13318,2026-07-26,500.00,one-time,Year-End Appeal,,no,yes
+G-0020,D-033,Casey,Oakhurst,,(404) 555-0178,906 Orchard Blvd,Madison,WI,59364,2026-10-20,250.00,one-time,Spring Appeal,,no,yes
+G-0021,D-041,Taylor,Hartwell,taylor13@example.com,312.555.0172,9576 Kingfisher Dr,Clinton,IA,79145,2026-02-19,50.00,one-time,Online,,no,yes
+G-0022,D-012,Indigo,Brindle,indigo41@example.net,608-555-0175,45 Dogwood Drive,Franklin,TN,65678,2026-12-19,1000.00,one-time,Year-End Appeal,,no,yes
+G-0023,D-045,Val,Kestrel,val.kestrel@example.com,312-555-0124,9278 Fernbrook Avenue,Clinton,IA,36928,2026-12-14,250.00,one-time,Spring Appeal,,no,yes
+G-0024,D-004,Priya,Larkspur,priya.larkspur@example.org,(212) 555-0190,3323 Cedar Hollow Way,Fairview,OR,62588,2026-02-01,75.00,recurring,Gala 2026,,no,yes
+G-0025,D-023,Quinn,Larkspur,quinn12@example.org,(404) 555-0131,2279 Ivy Bend Court,Salem,MA,74685,2026-01-23,-50.00,recurring,Online,,no,yes
+G-0026,D-006,Frankie,Thornbury,frankie.thornbury@example.com,212-555-0130,1153 Ivy Bend Lane,Georgetown,TX,52315,2026-06-20,1000.00,one-time,Gala 2026,,no,yes
+G-0027,D-037,Logan,Quillon,lquillon@example.net,(212) 555-0114,815 Orchard Road,Georgetown,TX,72773,2026-11-24,250.00,one-time,Year-End Appeal,,no,yes
+G-0028,D-032,Emeka,Brindle,emeka72@example.org,(919) 555-0185,5868 Orchard Lane,Georgetown,TX,11134,2026-04-01,25.00,one-time,Year-End Appeal,,no,yes
+G-0029,D-013,Morgan,Fairbank,morgan.fairbank@example.org,802-555-0159,2983 Kingfisher Road,Salem,MA,57470,2026-07-08,50.00,one-time,Gala 2026,,no,yes
+G-0030,D-013,Morgan,Fairbank,morgan.fairbank@example.org,802-555-0159,2983 Kingfisher Road,Salem,MA,57470,2026-07-08,50.00,one-time,Gala 2026,,no,yes
+G-0031,D-018,Bodhi,Dunmore,bodhi44@example.org,404-555-0141,7648 Linden Street,Fairview,OR,97102,2026-04-26,500.00,one-time,Spring Appeal,,no,yes
+G-0032,D-014,Reese,Kestrel,rkestrel@example.com,720.555.0111,2208 Juniper Ridge Drive,Clinton,IA,91249,2026-07-05,1000.00,one-time,Spring Appeal,,no,yes
+G-0033,D-044,Farida,Thornbury,farida.thornbury@example.com,+1 802 555 0161,3977 Alder Street,Fairview,OR,83536,2026-05-26,2500.00,one-time,Year-End Appeal,,no,yes
+G-0034,D-035,Frankie,Pemberly,fpemberly@example.org,503-555-0131,8009 Garnet Court,Springfield,IL,92722,2026-08-10,500.00,one-time,Year-End Appeal,,no,yes
+G-0035,D-032,Emeka,Brindle,emeka72@example.org,(919) 555-0185,5868 Orchard Lane,Georgetown,TX,11134,2026-07-25,25.00,one-time,Gala 2026,,no,yes
+G-0036,D-039,Noel,Pemberly,noel.pemberly@example.net,608.555.0171,7323 Elmwood Dr,Riverton,WY,33080,2026-05-12,500.00,one-time,Gala 2026,,no,yes
+G-0037,D-038,Noel,Stillwater,nstillwater@example.org,(608) 555-0187,5945 Kingfisher Dr,Salem,MA,10982,2026-11-30,250.00,one-time,Year-End Appeal,,no,yes
+G-0038,D-010,Noel,Kestrel,noel.kestrel@example.org,+1 802 555 0118,8490 Juniper Ridge Drive,Salem,MA,92615,2026-02-11,1000.00,one-time,Online,,no,yes
+G-0039,D-016,Priya,Ivesdale,pivesdale@example.com,+1 503 555 0154,2071 Juniper Ridge Drive,Clinton,IA,44589,2026-04-05,75.00,one-time,Spring Appeal,,no,yes
+G-0040,D-042,Kendall,Ashgrove,kashgrove@example.com,615.555.0149,5128 Dogwood St,Georgetown,TX,36330,2026-12-28,25.00,one-time,Spring Appeal,,no,yes
+G-0041,D-041,Taylor,Hartwell,taylor13@example.com,312.555.0172,9576 Kingfisher Dr,Clinton,IA,79145,2026-07-16,500.00,one-time,Year-End Appeal,,no,yes
+G-0042,D-018,Bodhi,Dunmore,bodhi44@example.org,404-555-0141,7648 Linden Street,Fairview,OR,97102,2026-07-03,25.00,one-time,Year-End Appeal,,no,yes
+G-0043,D-029,Casey,Mossley,casey.mossley@example.com,+1 312 555 0182,2069 Elmwood Street,Madison,WI,13318,2026-09-28,50.00,one-time,Spring Appeal,,no,yes
+G-0044,D-008,Hollis,Northcote,hollis.northcote@example.org,(720) 555-0151,198 Elmwood Drive,Salem,MA,88652,2026-06-29,500.00,recurring,Gala 2026,,no,yes
+G-0045,D-017,Sawyer,Glenhaven,sawyer.glenhaven@example.net,404-555-0128,2426 Hawthorn Way,Franklin,TN,77470,2026-03-24,50.00,one-time,Online,,no,yes
+G-0046,D-041,Taylor,Hartwell,taylor13@example.com,312.555.0172,9576 Kingfisher Dr,Clinton,IA,79145,2026-07-27,50.00,one-time,Gala 2026,,no,yes
+G-0047,D-044,Farida,Thornbury,farida.thornbury@example.com,+1 802 555 0161,3977 Alder Street,Fairview,OR,83536,2026-05-28,250.00,one-time,Gala 2026,,no,yes
+G-0048,D-026,Gideon,Ivesdale,gideon85@example.org,615-555-0158,8261 Cedar Hollow Dr,Clinton,IA,29972,2026-07-02,75.00,recurring,Spring Appeal,,no,yes
+G-0049,D-025,Casey,Kestrel,ckestrel@example.com,(212) 555-0185,3164 Meadowlark Avenue,Springfield,IL,62193,2026-04-12,75.00,recurring,Online,,no,yes
+G-0050,D-017,Sawyer,Glenhaven,sawyer.glenhaven@example.net,404-555-0128,2426 Hawthorn Way,Franklin,TN,77470,2026-03-08,150.00,one-time,Year-End Appeal,,no,yes
+G-0051,D-024,Parker,Oakhurst,parker38@example.net,615.555.0193,3266 Garnet Lane,Springfield,IL,39455,2026-01-31,250.00,one-time,Year-End Appeal,,no,yes
+G-0052,D-031,Oakley,Dunmore,odunmore@example.net,(615) 555-0117,9053 Linden Court,Clinton,IA,81619,2026-03-24,1000.00,one-time,Spring Appeal,,no,yes
+G-0053,D-005,Sawyer,Mossley,sawyer.mossley@example.net,503.555.0166,5383 Ivy Bend Ln,Springfield,IL,45175,2026-09-02,250.00,one-time,Spring Appeal,,no,yes
+G-0054,D-034,Taylor,Rainsford,taylor.rainsford@example.com,(720) 555-0184,7513 Orchard Road,Riverton,WY,38971,2026-10-23,50.00,recurring,Gala 2026,,no,yes
+G-0055,D-041,Taylor,Hartwell,taylor13@example.com,312.555.0172,9576 Kingfisher Dr,Clinton,IA,79145,2026-03-28,250.00,recurring,Year-End Appeal,,no,yes
+G-0056,D-013,Morgan,Fairbank,morgan.fairbank@example.org,802-555-0159,2983 Kingfisher Road,Salem,MA,57470,2026-10-16,1000.00,recurring,Spring Appeal,,no,yes
+G-0057,D-024,Parker,Oakhurst,parker38@example.net,615.555.0193,3266 Garnet Lane,Springfield,IL,39455,2026-08-15,75.00,one-time,Gala 2026,,no,yes
+G-0058,D-030,Dana,Rainsford,dana33@example.net,(404) 555-0193,2343 Cedar Hollow Court,Clinton,IA,48639,2026-05-10,500.00,one-time,Year-End Appeal,,no,yes
+G-0059,D-025,Casey,Kestrel,ckestrel@example.com,(212) 555-0185,3164 Meadowlark Avenue,Springfield,IL,62193,2026-04-28,35.00,one-time,Spring Appeal,,no,yes
+G-0060,D-040,Farida,Copperfield,farida58@example.net,(404) 555-0116,3008 Alder Ave,Clinton,IA,67086,2026-06-04,2500.00,one-time,Gala 2026,,no,yes

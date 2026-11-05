@@ -1,0 +1,7 @@
+{
+  "patterns": {
+    "CASE": "\\bCASE-\\d{4}-\\d{6}\\b",
+    "MEMBER": "\\bMBR\\d{7}\\b"
+  },
+  "synthetic": true
+}

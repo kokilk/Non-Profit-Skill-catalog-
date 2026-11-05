@@ -1,0 +1,15 @@
+{
+  "name": "nonprofit-skill-pack",
+  "version": "0.1.0",
+  "description": "Five Claude skills for small nonprofits: pii-guard, grant-scout, impact-report-builder, board-minutes-tracker and donor-thank-you-writer. Drafts only; nothing is sent, submitted or saved without the user's OK.",
+  "keywords": [
+    "nonprofit",
+    "grants",
+    "privacy",
+    "impact-report",
+    "board-minutes",
+    "donor-stewardship"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/kokilk/Non-Profit-Skill-catalog-"
+}
