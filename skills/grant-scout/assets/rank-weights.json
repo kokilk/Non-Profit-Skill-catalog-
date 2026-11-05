@@ -1,0 +1,10 @@
+{
+  "_about": "Soft-score weights for rank.py. Shown to the user with every ranking. Change them with the org; record why in the state file's change_log.",
+  "weights": {
+    "issue_match": 0.4,
+    "award_fit": 0.25,
+    "preferences_met": 0.15,
+    "deadline_feasibility": 0.2
+  },
+  "default_days_needed": 30
+}

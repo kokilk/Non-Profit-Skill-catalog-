@@ -1,0 +1,14 @@
+gift_id,donor_id,first_name,last_name,email,phone,street,city,state,zip,gift_date,amount,gift_type,campaign,tribute,anonymous,synthetic
+G-0001,D-038,[FIRST_NAME_1],[LAST_NAME_1],[EMAIL_1],[PHONE_1],[ADDRESS_1],Salem,MA,10982,2026-06-11,250.00,one-time,Online,,no,yes
+G-0002,D-028,[FIRST_NAME_2],[LAST_NAME_2],[EMAIL_2],[PHONE_2],[ADDRESS_2],Springfield,IL,31914,2026-12-17,2500.00,one-time,Year-End Appeal,,no,yes
+G-0003,D-036,[FIRST_NAME_3],[LAST_NAME_3],[EMAIL_3],[PHONE_3],[ADDRESS_3],Madison,WI,97383,2026-09-10,50.00,one-time,Gala 2026,,no,yes
+G-0004,D-001,[FIRST_NAME_4],[LAST_NAME_4],[EMAIL_4],[PHONE_4],[ADDRESS_4],Riverton,WY,50961,2026-12-15,100.00,one-time,Year-End Appeal,,no,yes
+G-0005,D-001,[FIRST_NAME_4],[LAST_NAME_4],[EMAIL_4],[PHONE_4],[ADDRESS_4],Riverton,WY,50961,2026-09-03,25.00,one-time,Year-End Appeal,,yes,yes
+G-0006,D-036,[FIRST_NAME_3],[LAST_NAME_3],[EMAIL_3],[PHONE_3],[ADDRESS_3],Madison,WI,97383,2026-08-13,25.00,one-time,Online,,no,yes
+G-0007,D-017,[FIRST_NAME_5],[LAST_NAME_2],[EMAIL_5],[PHONE_5],[ADDRESS_5],Franklin,TN,77470,2026-06-14,75.00,recurring,Online,,no,yes
+G-0008,D-014,[FIRST_NAME_6],[LAST_NAME_5],[EMAIL_6],[PHONE_6],[ADDRESS_6],Clinton,IA,91249,2026-02-04,50.00,one-time,Spring Appeal,,no,yes
+G-0009,D-043,[FIRST_NAME_7],[LAST_NAME_1],[EMAIL_7],[PHONE_7],[ADDRESS_7],Salem,MA,74898,2026-03-06,1000.00,one-time,Spring Appeal,,no,yes
+G-0010,D-025,[FIRST_NAME_8],[LAST_NAME_5],[EMAIL_8],[PHONE_8],[ADDRESS_8],Springfield,IL,62193,2026-03-17,1000.00,one-time,Online,[TRIBUTE_1],no,yes
+G-0011,D-032,[FIRST_NAME_9],[LAST_NAME_6],[EMAIL_9],[PHONE_9],[ADDRESS_9],Georgetown,TX,11134,2026-09-04,500.00,recurring,Gala 2026,,no,yes
+G-0012,D-026,[FIRST_NAME_10],[LAST_NAME_7],[EMAIL_10],[PHONE_10],[ADDRESS_10],Clinton,IA,29972,2026-02-10,50.00,one-time,Gala 2026,,no,yes
+G-0901,D-038,[FIRST_NAME_1],[LAST_NAME_1],[EMAIL_1],[PHONE_1],[ADDRESS_1],Salem,MA,10982,2026-06-11,250.00,one-time,Online,,no,yes

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: inflated-impact
+context:
+  scaffold_script: place-files.sh

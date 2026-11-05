@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "created_with": "grant-scout 0.1.0",
+  "last_updated": "2026-11-01",
+  "org": {
+    "name": "Coastline Food Collective (synthetic)",
+    "slug": "coastline"
+  },
+  "progress": {},
+  "profile": {
+    "facts": [
+      {
+        "id": "F-01",
+        "field": "legal_name",
+        "value": "Coastline Food Collective (synthetic)",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-02",
+        "field": "tax_status",
+        "value": "501(c)(3)",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-03",
+        "field": "applicant_type",
+        "value": "nonprofit",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-04",
+        "field": "geography",
+        "value": [
+          "OR"
+        ],
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-05",
+        "field": "annual_budget",
+        "value": 1800000,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-06",
+        "field": "sam_uei_status",
+        "value": "not_registered",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-07",
+        "field": "audited_financials",
+        "value": true,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-08",
+        "field": "can_provide_match",
+        "value": false,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-09",
+        "field": "issue_areas",
+        "value": [
+          "food security",
+          "health"
+        ],
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-10",
+        "field": "ask_amount",
+        "value": {
+          "min": 100000,
+          "max": 250000
+        },
+        "source": "Synthetic profile, 2026-11-01"
+      }
+    ]
+  },
+  "search_plan": {
+    "sources_searched": [
+      "files provided by the org"
+    ],
+    "sources_not_searched": [
+      "web"
+    ]
+  },
+  "grants": [
+    {
+      "id": "G-12",
+      "funder": "Federal Rural Programs (synthetic)",
+      "program": "Rural Food Systems",
+      "type": "federal",
+      "source_url": "https://federal-rural-programs.example.org/grants/rural-food-systems",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2027-03-15",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 100000,
+        "max": 200000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        },
+        {
+          "text": "Projects must serve a rural area",
+          "kind": "hard",
+          "source_quote_location": "Eligible areas",
+          "check": {
+            "field": "service_area_type",
+            "op": "in",
+            "value": [
+              "rural"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "food security"
+      ],
+      "requires": {
+        "sam_uei": true,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    }
+  ],
+  "pipeline": {
+    "settings": {
+      "buffer_days": 2,
+      "review_days": 5,
+      "drafting_days": 10,
+      "soon_days": 14
+    },
+    "entries": []
+  },
+  "lois": [],
+  "change_log": []
+}

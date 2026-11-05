@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "created_with": "donor-thank-you-writer 0.1.0",
+  "last_updated": "",
+  "org": {"name": "", "slug": ""},
+  "progress": {"voice": "not_started", "impact_facts": "not_started", "privacy_gate": "not_started", "gift_intake": "not_started",
+               "segment": "not_started", "draft": "not_started", "lint": "not_started", "preview": "not_started", "output": "not_started"},
+  "voice_notes": [],
+  "impact_facts_file": "",
+  "config_decisions": {"major_gift_min": null, "lapsed_after_months": null, "decided_by": "", "decided_on": ""},
+  "batches": [],
+  "change_log": []
+}

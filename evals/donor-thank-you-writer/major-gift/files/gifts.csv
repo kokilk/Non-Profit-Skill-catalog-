@@ -1,0 +1,6 @@
+gift_id,donor_id,first_name,last_name,email,street,city,state,zip,gift_date,amount,gift_type,campaign,tribute,anonymous,goods_services_value
+G-101,D-201,Rowan,Ashby,rowan.ashby@example.org,12 Alder St,Salem,MA,01970,2026-10-02,50.00,one-time,Online,,no,0
+G-102,D-202,Priya,Okafor,priya.okafor@example.com,88 Linden Ave,Madison,WI,53703,2026-10-05,2500.00,one-time,Year-End Appeal,,no,0
+G-103,D-203,Mateo,Larkspur,mateo.l@example.net,5 Orchard Ln,Franklin,TN,37064,2026-10-01,75.00,recurring,Online,,no,0
+G-104,D-204,Wren,Kestrel,wren.kestrel@example.org,40 Primrose Ct,Fairview,OR,97024,2026-10-08,100.00,one-time,Online,in memory of Elena Kestrel,no,0
+G-105,D-205,,,friend205@example.net,,,,,2026-10-09,40.00,one-time,Online,,yes,0

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "created_with": "pii-guard 0.1.0",
+  "last_updated": "",
+  "org": {
+    "name": "",
+    "slug": ""
+  },
+  "progress": {
+    "classify": "not_started",
+    "scan": "not_started",
+    "decide": "not_started",
+    "redact": "not_started",
+    "verify": "not_started",
+    "hand_off": "not_started",
+    "restore": "not_started"
+  },
+  "data": {
+    "description": "",
+    "source": "",
+    "mode": "",
+    "tier": "",
+    "tier_reason": ""
+  },
+  "plan_terms": {
+    "decision": "",
+    "decided_by": "",
+    "decided_on": "",
+    "source": ""
+  },
+  "scan": {
+    "file": "",
+    "ran_on": "",
+    "names_file_used": false,
+    "id_patterns_used": false,
+    "counts_by_type": {},
+    "sensitive_context_families": [],
+    "suggested_tier": ""
+  },
+  "redaction": {
+    "redacted_types": [],
+    "kept_types": [],
+    "kept_reason": "",
+    "dropped_columns": [],
+    "masked_columns": [],
+    "redacted_file": "",
+    "mapping_file_location": ""
+  },
+  "verify": {
+    "result": "",
+    "ran_on": "",
+    "left_over": {}
+  },
+  "change_log": []
+}

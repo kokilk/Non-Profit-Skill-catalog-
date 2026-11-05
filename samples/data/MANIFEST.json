@@ -1,0 +1,46 @@
+{
+  "counts": {
+    "corpus_labels": {
+      "ADDRESS": 100,
+      "CARD": 100,
+      "DOB": 200,
+      "EMAIL": 200,
+      "ID_NUMBER": 150,
+      "IP": 100,
+      "NAME_CUE": 260,
+      "NAME_LISTED": 250,
+      "PHONE": 250,
+      "URL_ID": 50
+    },
+    "corpus_records": 1478,
+    "donor_rows": 60,
+    "listed_names": 217,
+    "participant_rows": 120
+  },
+  "files": {
+    "donors.csv": {
+      "lines": 61,
+      "sha256": "9b24e5226bedcbb7b9138bfea6ff9f799bcf7b45d5b42d404cec2f4e8026163b"
+    },
+    "participants.csv": {
+      "lines": 121,
+      "sha256": "e85b6330b588dc638b7cf1be69f8168bfbf2f75147b6805e2a136027ab9f6395"
+    },
+    "pii/corpus.jsonl": {
+      "lines": 1478,
+      "sha256": "1f165f034f6b98ad89e1b542e97d950c8d571529f679791b74ce940502d3062d"
+    },
+    "pii/id-patterns.json": {
+      "lines": 7,
+      "sha256": "6a4f888a7ab9e6dd4802f11a796333023f6c1bea180464d4e11dd02127474fba"
+    },
+    "pii/names-list.txt": {
+      "lines": 218,
+      "sha256": "e3310a853f64c624bba91820f442854e1e5d793d17b343dd865572c0e0cd257e"
+    }
+  },
+  "generator_version": "0.2.0",
+  "org_name": "Lantern Hill Learning Collective (synthetic)",
+  "seed": 20261105,
+  "synthetic": true
+}

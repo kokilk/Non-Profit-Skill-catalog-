@@ -1,0 +1,16 @@
+{
+  "_about": "Sample config for tests and evals (synthetic org).",
+  "org_legal_name": "Lantern Hill Learning Collective (synthetic)",
+  "include_ein": false,
+  "ein": "",
+  "segments": {
+    "major_gift_min": 1000,
+    "lapsed_after_months": 18
+  },
+  "acknowledgment": {
+    "written_ack_min": 250,
+    "quid_pro_quo_disclosure_over": 75,
+    "source": "[VERIFY: current IRS guidance on charitable contribution acknowledgments and quid pro quo disclosures (e.g. IRS Publication 1771); checked on: not yet]",
+    "note": "US only. Other countries differ. Not tax advice: confirm with the org's accountant."
+  }
+}

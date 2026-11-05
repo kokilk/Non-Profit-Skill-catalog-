@@ -1,0 +1,30 @@
+{
+  "_about": "Org profile facts. One object per fact: id (F-01, F-02 ...), field, value, source (who said it, when). rank.py reads these fields by name. Leave a fact out rather than guess: a missing fact becomes an 'unknown' with a question.",
+  "facts": [
+    {"id": "F-01", "field": "legal_name", "value": "", "source": ""},
+    {"id": "F-02", "field": "ein", "value": "", "source": "", "_note": "optional; Amber"},
+    {"id": "F-03", "field": "tax_status", "value": "", "source": "", "_note": "e.g. 501(c)(3), fiscally sponsored, other"},
+    {"id": "F-04", "field": "fiscal_sponsor", "value": "", "source": ""},
+    {"id": "F-05", "field": "applicant_type", "value": "", "source": "", "_note": "e.g. nonprofit, fiscally sponsored project"},
+    {"id": "F-06", "field": "year_founded", "value": null, "source": ""},
+    {"id": "F-07", "field": "mission", "value": "", "source": "", "_note": "the org's own words"},
+    {"id": "F-08", "field": "programs", "value": [], "source": ""},
+    {"id": "F-09", "field": "geography", "value": [], "source": "", "_note": "states, counties, cities served, e.g. [\"OH\", \"Franklin County, OH\"]"},
+    {"id": "F-10", "field": "populations_served", "value": "", "source": "", "_note": "aggregate description only"},
+    {"id": "F-11", "field": "annual_budget", "value": null, "source": "", "_note": "number, in dollars"},
+    {"id": "F-12", "field": "staff_count", "value": null, "source": ""},
+    {"id": "F-13", "field": "volunteer_count", "value": null, "source": ""},
+    {"id": "F-14", "field": "board_size", "value": null, "source": ""},
+    {"id": "F-15", "field": "audited_financials", "value": null, "source": "", "_note": "true or false"},
+    {"id": "F-16", "field": "prior_funders", "value": [], "source": "", "_note": "optional"},
+    {"id": "F-17", "field": "sam_uei_status", "value": "", "source": "", "_note": "registered, not_registered, in_progress"},
+    {"id": "F-18", "field": "grant_writing_capacity", "value": "", "source": ""},
+    {"id": "F-19", "field": "days_needed_per_application", "value": null, "source": ""},
+    {"id": "F-20", "field": "can_provide_match", "value": null, "source": "", "_note": "true or false"},
+    {"id": "F-21", "field": "restrictions", "value": [], "source": "", "_note": "e.g. cannot accept religious-restricted funds"},
+    {"id": "F-22", "field": "issue_areas", "value": [], "source": ""},
+    {"id": "F-23", "field": "project_to_fund", "value": "", "source": ""},
+    {"id": "F-24", "field": "ask_amount", "value": {"min": null, "max": null}, "source": ""},
+    {"id": "F-25", "field": "project_timeline", "value": "", "source": ""}
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "created_with": "grant-scout 0.1.0",
+  "last_updated": "2026-11-01",
+  "org": {
+    "name": "Eastgate Tenants Network (synthetic)",
+    "slug": "eastgate"
+  },
+  "progress": {},
+  "profile": {
+    "facts": [
+      {
+        "id": "F-01",
+        "field": "legal_name",
+        "value": "Eastgate Tenants Network (synthetic)",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-02",
+        "field": "tax_status",
+        "value": "fiscally sponsored",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-03",
+        "field": "applicant_type",
+        "value": "fiscally sponsored project",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-04",
+        "field": "geography",
+        "value": [
+          "MI",
+          "Wayne County, MI"
+        ],
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-05",
+        "field": "annual_budget",
+        "value": 90000,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-06",
+        "field": "sam_uei_status",
+        "value": "not_registered",
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-07",
+        "field": "audited_financials",
+        "value": false,
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-08",
+        "field": "issue_areas",
+        "value": [
+          "housing",
+          "community organizing"
+        ],
+        "source": "Synthetic profile, 2026-11-01"
+      },
+      {
+        "id": "F-09",
+        "field": "ask_amount",
+        "value": {
+          "min": 10000,
+          "max": 20000
+        },
+        "source": "Synthetic profile, 2026-11-01"
+      }
+    ]
+  },
+  "search_plan": {
+    "sources_searched": [
+      "files provided by the org"
+    ],
+    "sources_not_searched": [
+      "web"
+    ]
+  },
+  "grants": [
+    {
+      "id": "G-01",
+      "funder": "Federal Literacy Office (synthetic)",
+      "program": "Community Literacy Grants",
+      "type": "federal",
+      "source_url": "https://federal-literacy-office.example.org/grants/community-literacy-grants",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2027-02-15",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 50000,
+        "max": 150000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must be 501(c)(3)",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)"
+            ]
+          }
+        },
+        {
+          "text": "Applicant must be a nonprofit organization",
+          "kind": "hard",
+          "source_quote_location": "Eligible applicants",
+          "check": {
+            "field": "applicant_type",
+            "op": "in",
+            "value": [
+              "nonprofit"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "literacy",
+        "education"
+      ],
+      "requires": {
+        "sam_uei": true,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-03",
+      "funder": "Great Lakes Neighbors Fund (synthetic)",
+      "program": "Housing Justice Grants",
+      "type": "foundation",
+      "source_url": "https://great-lakes-neighbors-fund.example.org/grants/housing-justice-grants",
+      "checked_on": "2026-11-01",
+      "status": "rolling",
+      "deadline": null,
+      "deadline_source": "",
+      "award_range": {
+        "min": 5000,
+        "max": 25000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Applicant must serve MI, OH, WI",
+          "kind": "hard",
+          "source_quote_location": "Who can apply",
+          "check": {
+            "field": "geography",
+            "op": "overlaps",
+            "value": [
+              "MI",
+              "OH",
+              "WI"
+            ]
+          }
+        },
+        {
+          "text": "Applicant must be 501(c)(3) or fiscally sponsored",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)",
+              "fiscally sponsored"
+            ]
+          }
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "housing",
+        "community organizing"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "G-11",
+      "funder": "Small Orgs Capacity Fund (synthetic)",
+      "program": "Capacity Grants",
+      "type": "foundation",
+      "source_url": "https://small-orgs-capacity-fund.example.org/grants/capacity-grants",
+      "checked_on": "2026-11-01",
+      "status": "open",
+      "deadline": "2027-04-01",
+      "deadline_source": "Key dates",
+      "award_range": {
+        "min": 5000,
+        "max": 15000
+      },
+      "eligibility_criteria": [
+        {
+          "text": "Annual budget of $250,000 or less",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "annual_budget",
+            "op": "lte",
+            "value": 250000
+          }
+        },
+        {
+          "text": "Applicant must be 501(c)(3) or fiscally sponsored",
+          "kind": "hard",
+          "source_quote_location": "Eligibility",
+          "check": {
+            "field": "tax_status",
+            "op": "in",
+            "value": [
+              "501(c)(3)",
+              "fiscally sponsored"
+            ]
+          }
+        },
+        {
+          "text": "Organization must have at least one paid staff member",
+          "kind": "hard",
+          "source_quote_location": "Eligibility"
+        }
+      ],
+      "geography": "",
+      "issue_areas": [
+        "capacity building"
+      ],
+      "requires": {
+        "sam_uei": false,
+        "audit": false,
+        "match_funds": false,
+        "prior_relationship": false
+      },
+      "notes": "",
+      "verified": false
+    }
+  ],
+  "pipeline": {
+    "settings": {
+      "buffer_days": 2,
+      "review_days": 5,
+      "drafting_days": 10,
+      "soon_days": 14
+    },
+    "entries": []
+  },
+  "lois": [],
+  "change_log": []
+}
